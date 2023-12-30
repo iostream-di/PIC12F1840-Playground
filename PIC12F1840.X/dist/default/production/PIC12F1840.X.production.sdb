@@ -1,0 +1,223 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1840 ]
+[d frameptr 6 ]
+"4 W:\Development\Embedded\MPLABX\PIC12F1840.X\main.c
+[e E1951 . `uc
+GPIO_OUTPUT 0
+GPIO_OUTPUT_PULL_UP 1
+GPIO_OUTPUT_PULL_DOWN 2
+GPIO_INPUT 3
+GPIO_INPUT_PULL_UP 4
+GPIO_INPUT_PULL_DOWN 5
+GPIO_INPUT_HIGH_IMPEDANCE 6
+]
+[e E1899 . `uc
+LOGIC_LOW 0
+LOGIC_HIGH 1
+]
+[e E1909 . `uc
+GPIO_RA0 0
+GPIO_RA1 1
+GPIO_RA2 2
+GPUO_RA3 3
+GPIO_RA4 4
+GPIO_RA5 5
+GPIO_RA6 6
+GPIO_RA7 7
+GPIO_RB0 10
+GPIO_RB1 11
+GPIO_RB2 12
+GPUO_RB3 13
+GPIO_RB4 14
+GPIO_RB5 15
+GPIO_RB6 16
+GPIO_RB7 17
+GPIO_RC0 20
+GPIO_RC1 21
+GPIO_RC2 22
+GPUO_RC3 23
+GPIO_RC4 24
+GPIO_RC5 25
+GPIO_RC6 26
+GPIO_RC7 27
+GPIO_RD0 30
+GPIO_RD1 31
+GPIO_RD2 32
+GPUO_RD3 33
+GPIO_RD4 34
+GPIO_RD5 35
+GPIO_RD6 36
+GPIO_RD7 37
+GPIO_RE0 40
+GPIO_RE1 41
+GPIO_RE2 42
+GPUO_RE3 43
+GPIO_RE4 44
+GPIO_RE5 45
+GPIO_RE6 46
+GPIO_RE7 47
+]
+"3 W:\Development\Embedded\MPLABX\PIC12F1840.X\pins.c
+[e E1909 . `uc
+GPIO_RA0 0
+GPIO_RA1 1
+GPIO_RA2 2
+GPUO_RA3 3
+GPIO_RA4 4
+GPIO_RA5 5
+GPIO_RA6 6
+GPIO_RA7 7
+GPIO_RB0 10
+GPIO_RB1 11
+GPIO_RB2 12
+GPUO_RB3 13
+GPIO_RB4 14
+GPIO_RB5 15
+GPIO_RB6 16
+GPIO_RB7 17
+GPIO_RC0 20
+GPIO_RC1 21
+GPIO_RC2 22
+GPUO_RC3 23
+GPIO_RC4 24
+GPIO_RC5 25
+GPIO_RC6 26
+GPIO_RC7 27
+GPIO_RD0 30
+GPIO_RD1 31
+GPIO_RD2 32
+GPUO_RD3 33
+GPIO_RD4 34
+GPIO_RD5 35
+GPIO_RD6 36
+GPIO_RD7 37
+GPIO_RE0 40
+GPIO_RE1 41
+GPIO_RE2 42
+GPUO_RE3 43
+GPIO_RE4 44
+GPIO_RE5 45
+GPIO_RE6 46
+GPIO_RE7 47
+]
+"24
+[e E1903 . `uc
+GPIO_SECT_PORT 0
+GPIO_SECT_LAT 1
+GPIO_SECT_ANSEL 2
+GPIO_SECT_TRIS 3
+]
+"57
+[e E1951 . `uc
+GPIO_OUTPUT 0
+GPIO_OUTPUT_PULL_UP 1
+GPIO_OUTPUT_PULL_DOWN 2
+GPIO_INPUT 3
+GPIO_INPUT_PULL_UP 4
+GPIO_INPUT_PULL_DOWN 5
+GPIO_INPUT_HIGH_IMPEDANCE 6
+]
+[e E1899 . `uc
+LOGIC_LOW 0
+LOGIC_HIGH 1
+]
+"5 W:\Development\Embedded\MPLABX\PIC12F1840.X\main.c
+[v _SysLED_Init SysLED_Init `(v  1 e 1 0 ]
+"16
+[v _SysLED_Toggle SysLED_Toggle `(v  1 e 1 0 ]
+"22
+[v _main main `(v  1 e 1 0 ]
+"3 W:\Development\Embedded\MPLABX\PIC12F1840.X\pins.c
+[v _get_pin_addr get_pin_addr `(us  1 s 2 get_pin_addr ]
+"24
+[v _set_value set_value `(v  1 s 1 set_value ]
+"53
+[v _get_value get_value `(uc  1 s 1 get_value ]
+"57
+[v _pin_init pin_init `(uc  1 e 1 0 ]
+"93
+[v _pin_toggle pin_toggle `(v  1 e 1 0 ]
+"5 W:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 W:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 W:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 W:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+[s S74 . 5 `DCE1951 1 drive_mode 1 0 `DCE1899 1 active_dir 1 1 `DCE1899 1 initial_value 1 2 `E1899 1 value 1 3 `DCE1909 1 gpio 1 4 ]
+"4 W:\Development\Embedded\MPLABX\PIC12F1840.X\main.c
+[v _SysLED SysLED `S74  1 e 5 0 ]
+"22
+[v _main main `(v  1 e 1 0 ]
+{
+"35
+} 0
+"16
+[v _SysLED_Toggle SysLED_Toggle `(v  1 e 1 0 ]
+{
+"18
+} 0
+"93 W:\Development\Embedded\MPLABX\PIC12F1840.X\pins.c
+[v _pin_toggle pin_toggle `(v  1 e 1 0 ]
+{
+[s S74 . 5 `DCE1951 1 drive_mode 1 0 `DCE1899 1 active_dir 1 1 `DCE1899 1 initial_value 1 2 `E1899 1 value 1 3 `DCE1909 1 gpio 1 4 ]
+[v pin_toggle@pin pin `*.4S74  1 a 1 wreg ]
+[v pin_toggle@pin pin `*.4S74  1 a 1 wreg ]
+[v pin_toggle@pin pin `*.4S74  1 a 1 12 ]
+"96
+} 0
+"5 W:\Development\Embedded\MPLABX\PIC12F1840.X\main.c
+[v _SysLED_Init SysLED_Init `(v  1 e 1 0 ]
+{
+[s S74 . 5 `DCE1951 1 drive_mode 1 0 `DCE1899 1 active_dir 1 1 `DCE1899 1 initial_value 1 2 `E1899 1 value 1 3 `DCE1909 1 gpio 1 4 ]
+"12
+[v SysLED_Init@1985 F1985 `S74  1 a 5 3 ]
+"5
+[v SysLED_Init@F1984 F1984 `S74  1 s 5 F1984 ]
+"15
+} 0
+"57 W:\Development\Embedded\MPLABX\PIC12F1840.X\pins.c
+[v _pin_init pin_init `(uc  1 e 1 0 ]
+{
+[s S74 . 5 `DCE1951 1 drive_mode 1 0 `DCE1899 1 active_dir 1 1 `DCE1899 1 initial_value 1 2 `E1899 1 value 1 3 `DCE1909 1 gpio 1 4 ]
+[v pin_init@pin pin `*.4S74  1 a 1 wreg ]
+[v pin_init@pin pin `*.4S74  1 a 1 wreg ]
+[v pin_init@pin pin `*.4S74  1 a 1 12 ]
+"71
+} 0
+"24
+[v _set_value set_value `(v  1 s 1 set_value ]
+{
+[v set_value@gpio gpio `E1909  1 a 1 wreg ]
+"25
+[v set_value@addr addr `*.39uc  1 a 2 1 ]
+"24
+[v set_value@gpio gpio `E1909  1 a 1 wreg ]
+[v set_value@sect sect `E1903  1 p 1 6 ]
+[v set_value@val val `uc  1 p 1 7 ]
+[v set_value@gpio gpio `E1909  1 a 1 0 ]
+"51
+} 0
+"3
+[v _get_pin_addr get_pin_addr `(us  1 s 2 get_pin_addr ]
+{
+[v get_pin_addr@gpio gpio `E1909  1 a 1 wreg ]
+[v get_pin_addr@gpio gpio `E1909  1 a 1 wreg ]
+[v get_pin_addr@gpio gpio `E1909  1 a 1 2 ]
+"22
+} 0
+"5 W:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
